@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="База_данных1DataSet" targetNamespace="http://tempuri.org/База_данных1DataSet.xsd" xmlns:mstns="http://tempuri.org/База_данных1DataSet.xsd" xmlns="http://tempuri.org/База_данных1DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="База_данных1ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="База_данных1ConnectionString (Settings)" PropertyReference="ApplicationSettings.WindowsFormsApplication8.Properties.Settings.GlobalReference.Default.База_данных1ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ГородTableAdapter" GeneratorDataComponentClassName="ГородTableAdapter" Name="Город" UserDataComponentName="ГородTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="База_данных1ConnectionString (Settings)" DbObjectName="Город" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Телефон, Дата, Направление, [Г.Имя], [С.Имя] FROM Город</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Телефон" DataSetColumn="Телефон" />
+              <Mapping SourceColumn="Дата" DataSetColumn="Дата" />
+              <Mapping SourceColumn="Направление" DataSetColumn="Направление" />
+              <Mapping SourceColumn="Г.Имя" DataSetColumn="Г_Имя" />
+              <Mapping SourceColumn="С.Имя" DataSetColumn="С_Имя" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="База_данных1DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="База_данных1DataSet" msprop:Generator_UserDSName="База_данных1DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Город" msprop:Generator_TableClassName="ГородDataTable" msprop:Generator_TableVarName="tableГород" msprop:Generator_TablePropName="Город" msprop:Generator_RowDeletingName="ГородRowDeleting" msprop:Generator_RowChangingName="ГородRowChanging" msprop:Generator_RowEvHandlerName="ГородRowChangeEventHandler" msprop:Generator_RowDeletedName="ГородRowDeleted" msprop:Generator_UserTableName="Город" msprop:Generator_RowChangedName="ГородRowChanged" msprop:Generator_RowEvArgName="ГородRowChangeEvent" msprop:Generator_RowClassName="ГородRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Телефон" msprop:Generator_ColumnVarNameInTable="columnТелефон" msprop:Generator_ColumnPropNameInRow="Телефон" msprop:Generator_ColumnPropNameInTable="ТелефонColumn" msprop:Generator_UserColumnName="Телефон" type="xs:int" minOccurs="0" />
+              <xs:element name="Дата" msprop:Generator_ColumnVarNameInTable="columnДата" msprop:Generator_ColumnPropNameInRow="Дата" msprop:Generator_ColumnPropNameInTable="ДатаColumn" msprop:Generator_UserColumnName="Дата" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Направление" msprop:Generator_ColumnVarNameInTable="columnНаправление" msprop:Generator_ColumnPropNameInRow="Направление" msprop:Generator_ColumnPropNameInTable="НаправлениеColumn" msprop:Generator_UserColumnName="Направление" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Г_Имя" msprop:Generator_ColumnVarNameInTable="columnГ_Имя" msprop:Generator_ColumnPropNameInRow="Г_Имя" msprop:Generator_ColumnPropNameInTable="Г_ИмяColumn" msprop:Generator_UserColumnName="Г_Имя" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="С_Имя" msprop:Generator_ColumnVarNameInTable="columnС_Имя" msprop:Generator_ColumnPropNameInRow="С_Имя" msprop:Generator_ColumnPropNameInTable="С_ИмяColumn" msprop:Generator_UserColumnName="С_Имя" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

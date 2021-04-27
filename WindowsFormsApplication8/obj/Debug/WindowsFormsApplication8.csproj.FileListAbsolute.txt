@@ -1,0 +1,40 @@
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\Database11.accdb
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form1.resources
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form2.resources
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+c:\users\gt_lg\documents\visual studio 2015\Projects\WindowsFormsApplication8\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+F:\ТРПК\Программа\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+F:\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+F:\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form1.resources
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form2.resources
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\bin\Debug\Database11.accdb
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form3.resources
+D:\моё\универ\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form4.resources
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe.config
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.exe
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.pdb
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\bin\Debug\Database11.accdb
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.exe
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\bin\Debug\WindowsFormsApplication8.pdb
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csprojResolveAssemblyReference.cache
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form1.resources
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form2.resources
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form3.resources
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Form4.resources
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.Properties.Resources.resources
+D:\моё\универ\Бак\флеш\ТРПК\КР\ТРПК\Программа\WindowsFormsApplication8\obj\Debug\WindowsFormsApplication8.csproj.GenerateResource.Cache

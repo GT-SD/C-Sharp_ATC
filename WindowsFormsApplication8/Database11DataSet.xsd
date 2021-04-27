@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Database11DataSet" targetNamespace="http://tempuri.org/Database11DataSet.xsd" xmlns:mstns="http://tempuri.org/Database11DataSet.xsd" xmlns="http://tempuri.org/Database11DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Database11ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Database11ConnectionString (Settings)" PropertyReference="ApplicationSettings.WindowsFormsApplication8.Properties.Settings.GlobalReference.Default.Database11ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Телефонные переговорыTableAdapter" GeneratorDataComponentClassName="Телефонные_переговорыTableAdapter" Name="Телефонные переговоры" UserDataComponentName="Телефонные переговорыTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Database11ConnectionString (Settings)" DbObjectName="Телефонные переговоры" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT [Дата переговоров], Продолжительность, [Тип вызова], [Номер звонящего], [Номер вызываемого] FROM [Телефонные переговоры]</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Дата переговоров" DataSetColumn="Дата переговоров" />
+              <Mapping SourceColumn="Продолжительность" DataSetColumn="Продолжительность" />
+              <Mapping SourceColumn="Тип вызова" DataSetColumn="Тип вызова" />
+              <Mapping SourceColumn="Номер звонящего" DataSetColumn="Номер звонящего" />
+              <Mapping SourceColumn="Номер вызываемого" DataSetColumn="Номер вызываемого" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Database11DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Database11DataSet" msprop:Generator_UserDSName="Database11DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Телефонные_x0020_переговоры" msprop:Generator_TableClassName="Телефонные_переговорыDataTable" msprop:Generator_TableVarName="tableТелефонные_переговоры" msprop:Generator_TablePropName="Телефонные_переговоры" msprop:Generator_RowDeletingName="Телефонные_переговорыRowDeleting" msprop:Generator_RowChangingName="Телефонные_переговорыRowChanging" msprop:Generator_RowEvHandlerName="Телефонные_переговорыRowChangeEventHandler" msprop:Generator_RowDeletedName="Телефонные_переговорыRowDeleted" msprop:Generator_UserTableName="Телефонные переговоры" msprop:Generator_RowChangedName="Телефонные_переговорыRowChanged" msprop:Generator_RowEvArgName="Телефонные_переговорыRowChangeEvent" msprop:Generator_RowClassName="Телефонные_переговорыRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Дата_x0020_переговоров" msprop:Generator_ColumnVarNameInTable="columnДата_переговоров" msprop:Generator_ColumnPropNameInRow="Дата_переговоров" msprop:Generator_ColumnPropNameInTable="Дата_переговоровColumn" msprop:Generator_UserColumnName="Дата переговоров" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Продолжительность" msprop:Generator_ColumnVarNameInTable="columnПродолжительность" msprop:Generator_ColumnPropNameInRow="Продолжительность" msprop:Generator_ColumnPropNameInTable="ПродолжительностьColumn" msprop:Generator_UserColumnName="Продолжительность" type="xs:int" minOccurs="0" />
+              <xs:element name="Тип_x0020_вызова" msprop:Generator_ColumnVarNameInTable="columnТип_вызова" msprop:Generator_ColumnPropNameInRow="Тип_вызова" msprop:Generator_ColumnPropNameInTable="Тип_вызоваColumn" msprop:Generator_UserColumnName="Тип вызова" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Номер_x0020_звонящего" msprop:Generator_ColumnVarNameInTable="columnНомер_звонящего" msprop:Generator_ColumnPropNameInRow="Номер_звонящего" msprop:Generator_ColumnPropNameInTable="Номер_звонящегоColumn" msprop:Generator_UserColumnName="Номер звонящего" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Номер_x0020_вызываемого" msprop:Generator_ColumnVarNameInTable="columnНомер_вызываемого" msprop:Generator_ColumnPropNameInRow="Номер_вызываемого" msprop:Generator_ColumnPropNameInTable="Номер_вызываемогоColumn" msprop:Generator_UserColumnName="Номер вызываемого" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
